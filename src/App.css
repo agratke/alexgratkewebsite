@@ -1,0 +1,45 @@
+.AlexMain {
+    text-align: center;
+    font-size: x-large;
+}
+
+.App-logo {
+    height: 220px;
+    border-radius: 50%;
+}
+
+.Alex-header {
+    background-color: #1a1d28;
+    height: 150px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    color: white;
+}
+
+.Name-title {
+    font-size: 1.5em;
+    font-family: "Calibri";
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.wrapper {
+     display: grid;
+     grid-template-columns: 164px 164px 164px 164px 100px;
+     grid-gap: 10px;
+     /*flex: 20%;*/
+     /*max-width: 20%;*/
+     /*padding: 0 4px;*/
+ }
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
